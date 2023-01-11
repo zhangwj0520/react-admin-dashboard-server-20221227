@@ -16,6 +16,7 @@ specifiers:
   mongoose: ^6.8.1
   morgan: ^1.10.0
   nodemon: ^2.0.20
+  uuid: ^9.0.0
 
 dependencies:
   '@vercel/node': 2.8.5
@@ -28,6 +29,7 @@ dependencies:
   mongoose: 6.8.1
   morgan: 1.10.0
   nodemon: 2.0.20
+  uuid: 9.0.0
 
 devDependencies:
   eslint: 8.30.0
@@ -3266,6 +3268,11 @@ packages:
     hasBin: true
     dev: false
     optional: true
+
+  /uuid/9.0.0:
+    resolution: {integrity: sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==}
+    hasBin: true
+    dev: false
 
   /v8-compile-cache-lib/3.0.1:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
